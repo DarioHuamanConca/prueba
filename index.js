@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 // Servir archivos estáticos desde la carpeta `public`
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
+
 // Configuración de conexión a MySQL con un pool
 const pool = mysql.createPool({
     host: "formulario.cl2e6ce0m1wi.us-east-1.rds.amazonaws.com",
