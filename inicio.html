@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODS</title>
+    <link rel="stylesheet" href="css/carrusel.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/carta.css">
+    <link rel="stylesheet" href="css/saber_mas.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/recarga.css">
+    <link rel="stylesheet" href="css/saber-del-ods.css">
+    <link rel="stylesheet" href="/css/calendario.css">
+    <link rel="icon" href="img/LOGO ODS.png">
+</head>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header>
+        <a href="inicio.html" class="imagen-logo">
+            <img src="img/LOGO ODS.png" alt="menu-icono" class="logo-img">
+        </a>
+        <nav class="header-enlace">
+            <a href="inicio.html" class="nav link">INICIO</a>
+            <a href="html/contactanos.html" class="nav link">CONTACTANOS</a>
+            <a href="html/QuienesSomos.html" class="nav link">QUIENES SOMOS</a>
+            <a href="html/apoyanos.html" class="nav link">APOYANOS</a>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <section class="info-header">
+                <h1><span class="titulo-principal"></span></h1>
+                <p>
+                    En esta plataforma, unimos fuerzas para impulsar un futuro más
+                    equitativoy sostenible para todos.
+                    Descubre cómo, a través de la acción colectiva y el apoyo mutuo, podemos <br>
+                    cumplir con los 17 ODS establecidos por las Naciones Unidas y construir un <br>
+                    mundo donde la prosperidad,
+                    la justicia y el bienestar sean accesibles para todos.
+                </p>
+            </section>
+        </div>
+    </main>
+    <section>
+        <div class="calendario">
+            <div class="date-message" id="dateMessage"></div>
+        </div>
+        <div class="section">
+            <div class="text">
+                <h2>¿Por qué son tan importantes los ODS?</h2>
+                <p>
+                    Los Objetivos de Desarrollo Sostenible (ODS) son importantes porque abordan los desafíos globales
+                    más urgentes, como la pobreza, la desigualdad, el cambio climático, y la paz. Son 17 metas que
+                    buscan equilibrar el desarrollo económico, el bienestar social y la sostenibilidad ambiental, para
+                    asegurar un futuro próspero y equitativo para todos. Su relevancia radica en promover acciones
+                    concretas que beneficien tanto a las personas como al planeta, con un enfoque en la colaboración
+                    global.
+                </p>
+            </div>
+            <div class="video">
+                <iframe width="610" height="310" src="https://www.youtube.com/embed/bRBGIZCsoiY?si=bFn9k-8KE7f6MHsD"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <div class="carousel">
+            <h2>¿Cuales son los 17 objetivos de desarrollo sostenible?</h2>
+
+            <div class="carrusel-lista" id="carrusel-lista">
+                <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
+                    onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                        class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                            d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                        </path>
+                    </svg>
+                </button>
+                <!---------------------------------------------------------------------------------------------------->
+                <div class="carrusel-track" id="track">
+                    <!-- IMAGEN 01 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 1.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Erradicar la pobreza extrema para todas las personas
+                                en el mundo (menos de 1.25 USD al día) y reducir al menos
+                                a la mitad la pobreza en todas sus formas, garantizando
+                                acceso a recursos, servicios y protección social.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 02-->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 2.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Poner fin al hambre y la malnutrición para 2030, mejorar la
+                                sostenibilidad de los sistemas alimentarios, aumentar la
+                                productividad agrícola y garantizar el acceso equitativo a
+                                alimentos nutritivos y suficientes.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 03 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 3.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Garantizar una vida saludable para todas las personas en
+                                todas las edades, reduciendo la mortalidad infantil y materna,
+                                combatiendo enfermedades transmisibles (como VIH/SIDA, malaria)
+                                y no transmisibles, y garantizando cobertura sanitaria universal.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 04 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 4.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Asegurar que todos tengan acceso a una educación de calidad,
+                                inclusiva y equitativa, promoviendo el acceso a la educación
+                                preescolar, primaria, secundaria y superior, con igualdad de
+                                oportunidades y fomento de competencias técnicas y vocacionales.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 05-->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 5.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Lograr la igualdad entre los géneros, eliminando todas las
+                                formas de discriminación, violencia y prácticas nocivas, como
+                                el matrimonio infantil y la mutilación genital femenina, y
+                                garantizando el acceso de las mujeres a la participación en
+                                todos los niveles de toma de decisiones.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 06 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 6.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Garantizar que todas las personas tengan acceso a agua potable
+                                segura, asequible y a servicios de saneamiento adecuados, mejorando
+                                la calidad del agua, reduciendo la contaminación y promoviendo la
+                                gestión sostenible de los recursos hídricos.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 07 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 7.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Asegurar el acceso a una energía asequible, fiable, moderna y sostenible
+                                para todos, mejorando la eficiencia energética y aumentando el uso de
+                                fuentes de energía renovable.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 08 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 8.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Promover el crecimiento económico sostenido, inclusivo y sostenible, con
+                                pleno empleo productivo y trabajo decente para todos, garantizando salarios
+                                justos, la protección de los derechos laborales y condiciones de trabajo
+                                seguras.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 09 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 9.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Desarrollar infraestructuras resilientes, promover la industrialización inclusiva
+                                y sostenible, y fomentar la innovación tecnológica, mejorando el acceso a financiamiento
+                                para pequeñas empresas y aumentando la inversión en investigación.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 10 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 10.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Reducir las desigualdades de ingresos dentro y entre los países, mejorando
+                                la inclusión social, económica y política para todos, con atención especial
+                                a los grupos más vulnerables, y fomentando políticas fiscales, salariales y
+                                sociales equitativas.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 11 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 11.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Asegurar que las ciudades y asentamientos humanos sean inclusivos, seguros,
+                                resilientes y sostenibles, promoviendo el acceso a viviendas asequibles,
+                                transporte público, espacios verdes y reduciendo la contaminación urbana
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 12 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 12.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Garantizar patrones de consumo y producción sostenibles, reduciendo la generación
+                                de residuos, fomentando el reciclaje, y promoviendo el uso eficiente de los
+                                recursos naturales, así como la adopción de prácticas sostenibles en la industria.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 13 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 13.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Tomar medidas urgentes para combatir el cambio climático y sus impactos, mediante
+                                la reducción de emisiones de gases de efecto invernadero, la promoción de la
+                                resiliencia climática y la implementación de políticas y acuerdos globales sobre
+                                el clima.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 14 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 14.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Conservar y utilizar de manera sostenible los océanos, mares y recursos marinos,
+                                reduciendo la contaminación marina, protegiendo los ecosistemas costeros y
+                                promoviendo la pesca sostenible para asegurar la biodiversidad marina.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 15 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 15.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Proteger, restaurar y promover el uso sostenible de los ecosistemas terrestres,
+                                luchando contra la desertificación, gestionando sosteniblemente los bosques,
+                                deteniendo la pérdida de biodiversidad y protegiendo la fauna y flora silvestre.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 16 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 16.jpg" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Promover sociedades pacíficas, inclusivas y justas, garantizando el acceso equitativo
+                                a la justicia para todos, reduciendo la violencia y la corrupción, y construyendo
+                                instituciones eficaces, responsables y transparentes.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- IMAGEN 17 -->
+                    <div class="carrusel">
+                        <div class="cara visible">
+                            <img src="img/ods 17.png" alt="imagen">
+                        </div>
+                        <div class="cara nada">
+                            <p>
+                                Fortalecer las alianzas a nivel global, movilizando recursos financieros, tecnológicos
+                                y de conocimiento, mejorando la cooperación internacional y promoviendo asociaciones
+                                multisectoriales para el logro de los ODS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------------------------------------------------------------------------------------->
+                <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next"
+                    onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                        class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                            d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="centro">
+        <div>
+            <h2>HAMBRE CERO</h2>
+            <P class="texto-wa">
+                Hambre Cero es el segundo de los Objetivos de Desarrollo Sostenible (ODS) adoptados por la ONU, y su
+                meta
+                principal es erradicar el hambre en el mundo para 2030. Este objetivo reconoce que el hambre es uno de
+                los mayores desafíos globales, afectando a millones de personas, particularmente en las regiones más
+                vulnerables. El acceso a alimentos nutritivos, suficientes y sostenibles es esencial para garantizar una
+                vida saludable y combatir la pobreza. Hambre Cero también promueve la agricultura sostenible, el acceso
+                a los mercados locales, la reducción del desperdicio de alimentos y una mayor resiliencia frente al
+                cambio climático. Es un esfuerzo integral para transformar los sistemas alimentarios y asegurar que
+                nadie se quede atrás en la lucha por la seguridad alimentaria.
+            </P>
+            <div class="img-hambre">
+                <img src="img/persona comida 1.webp" alt="comiendo">
+                <img src="img/persona comida 2.jpg" alt="comiendo">
+                <img src="img/persona comida 3.jpg" alt="comiendo">
+            </div>
+            <div class="button-container">
+                <button class="btn-saber-mas"><a href="html/ods2.html">Saber más</a></button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <img src="img/LOGO ODS.png" alt="Logo ODS" class="footer-logo">
+                <p>Unidos para lograr un futuro más equitativo y sostenible</p>
+            </div>
+
+
+            <div class="footer-about">
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una organización dedicada a combatir el hambre en el mundo, brindando asistencia alimentaria
+                    a las comunidades más necesitadas.</p>
+            </div>
+
+
+            <div class="footer-col">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="html/QuienesSomos.html">¿Quiénes Somos?</a></li>
+                    <li><a href="html/contactanos.html">Contáctanos</a></li>
+                    <li><a href="#">Apóyanos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="img/lindekind.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="img/X.png" alt="Twitter"></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contáctanos</h3>
+                <p>Email: <a href="mailto:contacto@hambrecero.org">contacto@hambrecero.org</a></p>
+                <p>Teléfono: +51 123 456 789</p>
+                <p>Dirección: San Vicente de Cañete, Lima, Perú</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Hambre Cero. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/calendario.js"></script>
+    <script src="js/Letra.js"></script>
+    <script src="js/carrusel.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="js/recarga.js"></script>
+</body>
+
+</html>

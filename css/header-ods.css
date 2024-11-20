@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d4e6c3;
+    background-position: center;
+    padding-top: 84px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0px;
+    z-index: 1000;
+}
+
+.imagen-logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo-img{
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+
+.hero {
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-header {
+    background-color: rgb(0, 0, 0);
+    padding: 294.5px 310px;
+    border-radius: 0px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.logo-img{
+    height: 50px;
+    margin-right: 30px;
+}
+
+a{
+    display: inline-block;
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-enlace a:hover{
+    color: #ffcc00;
+}

@@ -1,0 +1,89 @@
+.centro {
+    background: linear-gradient(to bottom, #f8e3b1, #93af46);
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.centro h2 {
+    font-size: 70px;
+    line-height: 150px;
+}
+
+.centro p {
+    text-align: center;
+    padding: 30px;
+}
+
+.img-hambre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.centro img {
+    object-fit: cover;
+    height: 250px;
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-saber-mas {
+    background-color: rgb(180, 180, 180);
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.781);
+    margin: 60px;
+    height: 6vh;
+}
+
+.btn-saber-mas:hover {
+    background-color: #9e1818;
+    transform: scale(1.05);
+}
+
+.btn-saber-mas:active {
+    background-color: #1e7e34;
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    .centro h2 {
+        font-size: 50px; 
+        line-height: 100px;
+    }
+
+    .centro p {
+        padding: 20px; 
+    }
+
+    .img-hambre {
+        flex-direction: column; 
+    }
+
+    .centro img {
+        height: 200px; 
+        width: 100%; 
+        max-width: 450px; 
+    }
+}

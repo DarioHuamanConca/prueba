@@ -1,0 +1,47 @@
+.calendario {
+    padding: 20px;
+    background-color: #93af46;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.calendario h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra sutil en el texto */
+}
+
+.date-message {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border: 2px solid #fff; /* Borde blanco */
+    border-radius: 6px;
+    color: #333; /* Texto oscuro para contraste */
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+    display: inline-block; /* Para centrar el mensaje */
+    margin: 10px 0; /* Margen vertical */
+}
+
+.date-message.hidden {
+    transform: translateY(-20px); /* Efecto de movimiento hacia arriba al desaparecer */
+    opacity: 0; /* Efecto de desaparición */
+}
+
+@media (max-width: 768px) {
+    .calendario {
+        padding: 15px;
+    }
+
+    .calendario h2 {
+        font-size: 22px;
+    }
+
+    .date-message {
+        font-size: 18px;
+    }
+}

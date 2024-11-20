@@ -1,0 +1,28 @@
+
+h1 {
+    font-size: 3.5em;
+    padding: 10px;
+}
+
+.info, .beneficios {
+    max-width: 800px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}

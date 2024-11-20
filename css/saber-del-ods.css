@@ -1,0 +1,37 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: linear-gradient(to bottom, #93af46, #f8e3b1);
+
+}
+
+
+.text {
+    line-height: 1.6;
+    width: 50%;
+    padding-right: 20px;
+    background: #ffffff9f;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.text p {
+    font-size: 20px;
+    color: #333;
+}
+
+.video {
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .text, .video {
+        width: 90%; 
+    }
+}
